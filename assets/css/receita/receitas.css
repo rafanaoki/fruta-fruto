@@ -1,0 +1,43 @@
+.receitas {
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.bloco-receita {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2500px;
+
+}
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1544px) {
+    .receitas {
+        padding: 5rem 2.5rem;
+    }
+
+    .bloco-receita {
+        width: 1441px;
+    }
+}
+
+
+@media screen and (min-width: 2463px) {
+    .bloco-receita {
+        width: 2280px;
+    }
+}
